@@ -1,0 +1,6 @@
+qiskit>=1.0.0
+qiskit-ibm-runtime>=0.21.0
+qiskit[visualization]
+matplotlib
+numpy
+pylatexenc
