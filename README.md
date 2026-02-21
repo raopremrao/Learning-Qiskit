@@ -22,26 +22,4 @@ A study on preparing the $|\Phi^+\rangle$ state on physical superconducting proc
 * **Optimization**: Level 3 transpilation to mitigate gate errors and decoherence.
 
 ---
-
-## 🔬 Experimental Results & Hardware Analysis
-
-Data collected from physical hardware (**4096 shots**) demonstrates the real-world performance of quantum bits compared to ideal simulators.
-
-| State | Counts | Probability | Ideal (Simulated) |
-| :--- | :--- | :--- | :--- |
-| $\|00\rangle$ | 2028 | 49.5% | 50% |
-| $\|11\rangle$ | 1891 | 46.1% | 50% |
-| $\|01\rangle$ | 91   | 2.2%  | 0% |
-| $\|10\rangle$ | 32   | 0.7%  | 0% |
-
-> **Calculated Fidelity**: $F \approx 95.7\%$
-
-### The "NISQ" Fingerprint: Why do $|01\rangle$ and $|10\rangle$ appear?
-In physical hardware, unwanted states occur due to:
-1. **Readout Error**: Misidentification of qubit states during measurement signal integration.
-2. **Gate Infidelity**: Microwave pulse fluctuations during the CNOT operation.
-3. **Decoherence ($T_1$/$T_2$)**: Spontaneous relaxation and phase loss due to environmental coupling.
-
-
----
 *Developed as part of my deep-dive into Quantum Computing.*

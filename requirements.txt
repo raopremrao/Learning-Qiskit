@@ -4,3 +4,4 @@ qiskit[visualization]
 matplotlib
 numpy
 pylatexenc
+qiskit_aer
