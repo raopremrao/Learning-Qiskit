@@ -29,12 +29,12 @@ Data collected from physical hardware (**4096 shots**) demonstrates the real-wor
 
 | State | Counts | Probability | Ideal (Simulated) |
 | :--- | :--- | :--- | :--- |
-| $\|00\rangle$ | 2085 | 50.9% | 50% |
-| $\|11\rangle$ | 1948 | 47.6% | 50% |
-| $\|01\rangle$ | 31   | 0.7%  | 0% |
-| $\|10\rangle$ | 32   | 0.8%  | 0% |
+| $\|00\rangle$ | 2028 | 49.5% | 50% |
+| $\|11\rangle$ | 1891 | 46.1% | 50% |
+| $\|01\rangle$ | 91   | 2.2%  | 0% |
+| $\|10\rangle$ | 32   | 0.7%  | 0% |
 
-> **Calculated Fidelity**: $F \approx 98.4\%$
+> **Calculated Fidelity**: $F \approx 95.7\%$
 
 ### The "NISQ" Fingerprint: Why do $|01\rangle$ and $|10\rangle$ appear?
 In physical hardware, unwanted states occur due to:
