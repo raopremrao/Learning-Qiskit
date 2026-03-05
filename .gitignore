@@ -1,3 +1,5 @@
 .venv
 
 02_Greenberger-Horne-Zeilinge_GHZ
+
+__pycache__

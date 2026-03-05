@@ -1,7 +1,9 @@
 import numpy as np
 
 
-def compute_fidelity(counts, shots):
+def compute_fidelity(counts):
+
+    total = sum(counts.values())
 
     success = 0
 
@@ -10,7 +12,7 @@ def compute_fidelity(counts, shots):
         if bitstring[0] == '0':
             success += count
 
-    fidelity = success / shots
+    fidelity = success / total
 
     return fidelity
 
